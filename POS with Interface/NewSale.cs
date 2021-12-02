@@ -10,11 +10,22 @@ using System.Windows.Forms;
 
 namespace POS_with_Interface
 {
-    public partial class Form1 : Form
+    public partial class NewSale : Form
     {
-        public Form1()
+        public NewSale()
         {
             InitializeComponent();
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CnclSale_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            
         }
     }
 }

@@ -46,14 +46,70 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="AboutBox1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="AboutBox1.Designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddProd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddProd.Designer.cs">
+      <DependentUpon>AddProd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminMenu.Designer.cs">
+      <DependentUpon>AdminMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Basket.cs" />
+    <Compile Include="AdminPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPassword.Designer.cs">
+      <DependentUpon>AdminPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewPass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewPass.Designer.cs">
+      <DependentUpon>NewPass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewSale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewSale.Designer.cs">
+      <DependentUpon>NewSale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddProd.resx">
+      <DependentUpon>AddProd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminMenu.resx">
+      <DependentUpon>AdminMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPassword.resx">
+      <DependentUpon>AdminPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewPass.resx">
+      <DependentUpon>NewPass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewSale.resx">
+      <DependentUpon>NewSale.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,6 +119,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\DataSources\Product.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
